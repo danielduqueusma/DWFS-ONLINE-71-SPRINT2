@@ -27,11 +27,19 @@ let tieneHijos = true
 //   console.log('No tiene hijos')
 // }
 
+<<<<<<< HEAD
 // if (edad1 == edad2) {
 //   console.log('Son iguales')
 // } else {
 //   console.log('No son iguales')
 // }
+=======
+if (edad1 == edad2) {
+  console.log('Son iguales')
+} else {
+  console.log('No son iguales')
+}
+>>>>>>> 96f6c16a74d732f8335712ef9e68c34eaaeba3b1
 
 // 1. tienen el mismo contenido que es 40, VAMOS BIEN
 // 2 Tienen el mismo tipo?, String, Number, NO TE PUEDO DEJAT SEGUIR
@@ -42,6 +50,7 @@ let tieneHijos = true
 //LOWER-CAMEL-CASE
 
 
+<<<<<<< HEAD
 // let numero1 = prompt('Ingrese un número')
 // let numero2 = prompt('Ingrese un número')
 // let numero3 = prompt('Ingrese un número')
@@ -60,3 +69,13 @@ let day = todayy.getDate()
 console.log(`${today} Fecha de hoy en Unix `)
 console.log(`Fecha de hoy en Unix convertida: ${day} de ${month} del ${year} `)
 console.log('Saludos mis desarrolladores estrellas de DWFE-ONLINE-3')
+=======
+let numero1 = prompt('Ingrese un número')
+let numero2 = prompt('Ingrese un número')
+let numero3 = prompt('Ingrese un número')
+let resultado = parseInt(numero1) + parseInt(numero2) + parseInt(numero3)
+let resta = parseInt(numero1) - parseInt(numero2) - parseInt(numero3)
+let multiplicacion = parseInt(numero1) * parseInt(numero2) * parseInt(numero3)
+alert('El resultado es ' + (resultado + resta + multiplicacion))
+alert('El resultado es ' + typeof(resultado) + typeof(resta) + typeof(multiplicacion))
+>>>>>>> 96f6c16a74d732f8335712ef9e68c34eaaeba3b1
