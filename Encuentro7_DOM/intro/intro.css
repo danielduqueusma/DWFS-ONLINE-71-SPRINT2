@@ -1,0 +1,14 @@
+.gray {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.cuadrado {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  margin: 0 auto;
+}
