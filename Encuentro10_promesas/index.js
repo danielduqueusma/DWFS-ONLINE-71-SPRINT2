@@ -177,12 +177,6 @@ window.onload = function () {
   //     }
   // })
 
-  var myInit = { method: 'GET',
-               headers: {
-                api_key: 'Tqhprsmnbs6alhnP7fIQHFqhOBvTaqj8'
-               },
-               mode: 'cors',
-               cache: 'default' };
   fetch(
     'https://api.giphy.com/v1/gifs/trending?api_key=Tqhprsmnbs6alhnP7fIQHFqhOBvTaqj8&limit=25&rating=g'
     )
@@ -195,7 +189,6 @@ window.onload = function () {
         }
       )
 }
-// api_key: 'Tqhprsmnbs6alhnP7fIQHFqhOBvTaqj8'
 
 // Vamos a utilizar una API que nos brinda GitHub para traer información a 
 //nuestro desarrollo y poder mostrarla en nuestro sitio.
