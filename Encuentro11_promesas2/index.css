@@ -1,0 +1,19 @@
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.fontColor:hover {
+  color: blue;
+  cursor: pointer;
+}
